@@ -1,0 +1,8 @@
+1. Buatlah Custom Task untuk melakukan perintah print “Hello Jayjay, My Name is <Student>”.
+Nama Student boleh di hard code, namun cobalah cari bagaimana caranya melakukan passing parameter
+pada Gradle CLI kedalam Gradle Task agar dapat membuat nama yang dynamic sesuai inputan
+Referensi: https://www.baeldung.com/gradle-command-line-arguments
+
+2. Tambahkan dependencies pada build.gradle file untuk library Selenium, Rest Assured dan Cucumber
+
+3. Push semua perubahan pada repository
