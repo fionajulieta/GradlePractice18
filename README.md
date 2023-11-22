@@ -17,7 +17,7 @@ Ans:
 - Lalu untuk gradle tasknya, kita buat dengan syntax: task namaGradleTask(){ doLast {expression}}
 - syntax -> variable = (condition) ? expressionTrue :  expressionFalse;
 
-- untuk run tasknya, ketik di terminal: ./gradlew greetingTask -Pnama=<namakita>
+- untuk run tasknya, ketik di terminal: ./gradlew greetingTask -Pnama=namakita
 - untuk hasil di attached screenshot, yg saya ketik di terminal adalah: ./gradlew greetingTask -Pnama=fiona
 ![gradletask run](https://github.com/fionajulieta/GradlePractice18/assets/146444371/f588af4c-4b21-44ec-9bc0-a057627b5be5)
 
