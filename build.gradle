@@ -27,8 +27,16 @@ test {
 task greetingTask() {
     doLast {
         String nama = project.hasProperty('nama') ? project.property('nama') : 'Gradle user'
-        println "Hello, $nama! Welcome to Gradle World!"
+        println "Hello Jayjay, My Name is $nama"
     }
 }
 
-//./gradlew greetingTask -Pnama=fiona -> utk masukin nama. kalo kita ga masukin, otomatis bakal jdi Gradle user
+// other way to write:
+//task greetingTask(){
+//    doLast {
+//        if(project.hasProperty('nama')){
+//            def nama = project.property('nama')
+//            println "Hello Jayjay, My Name is $nama"
+//        }
+//    }
+//}

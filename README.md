@@ -10,6 +10,7 @@ Referensi: https://www.baeldung.com/gradle-command-line-arguments
 Ans:
 - buat project baru di intellij idea dan pilih Gradle utk build systemnya
 - utk add library, go to https://mvnrepository.com/ dan search selenium, rest assured, dan cucumber
+![maven repo.png](..%2FOneDrive%2FDesktop%2FFIONA%2Ftugas%2Fmaven%20repo.png)
 - copy dependencynya trs paste didalam build.gradle >> dependencies{}
 - click icon gradle utk sync
   
@@ -24,3 +25,5 @@ Ans:
     2. menu git > add atau ketik 'git add .' di terminal
     3. menu git > commit directory > enter commentnya > klik commit
     4. menu git > push
+
+![gradletask run.png](..%2FOneDrive%2FDesktop%2FFIONA%2Ftugas%2Fgradletask%20run.png)
