@@ -10,7 +10,7 @@ Referensi: https://www.baeldung.com/gradle-command-line-arguments
 Ans:
 - buat project baru di intellij idea dan pilih Gradle utk build systemnya
 - utk add library, go to https://mvnrepository.com/ dan search selenium, rest assured, dan cucumber
-![maven repo.png](..%2FOneDrive%2FDesktop%2FFIONA%2Ftugas%2Fmaven%20repo.png)
+![maven repo](https://github.com/fionajulieta/GradlePractice18/assets/146444371/ebe4e69f-2594-44af-ae87-253cf15c77ed)
 - copy dependencynya trs paste didalam build.gradle >> dependencies{}
 - click icon gradle utk sync
   
@@ -19,6 +19,8 @@ Ans:
 
 - untuk run tasknya, ketik di terminal: ./gradlew greetingTask -Pnama=<namakita>
 - untuk hasil di attached screenshot, yg saya ketik di terminal adalah: ./gradlew greetingTask -Pnama=fiona
+![gradletask run](https://github.com/fionajulieta/GradlePractice18/assets/146444371/f588af4c-4b21-44ec-9bc0-a057627b5be5)
+
 
 - terakhir di push ke github dari intellij nya:
     1. tambah remote repository: menu git > manage remotes > add new github url <https:// github.com/fionajulieta/GradlePractice18.git>
@@ -26,4 +28,3 @@ Ans:
     3. menu git > commit directory > enter commentnya > klik commit
     4. menu git > push
 
-![gradletask run.png](..%2FOneDrive%2FDesktop%2FFIONA%2Ftugas%2Fgradletask%20run.png)
