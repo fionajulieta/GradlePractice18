@@ -2,7 +2,12 @@
 Nama Student boleh di hard code, namun cobalah cari bagaimana caranya melakukan passing parameter
 pada Gradle CLI kedalam Gradle Task agar dapat membuat nama yang dynamic sesuai inputan
 Referensi: https://www.baeldung.com/gradle-command-line-arguments
-
 2. Tambahkan dependencies pada build.gradle file untuk library Selenium, Rest Assured dan Cucumber
-
 3. Push semua perubahan pada repository
+
+
+note:
+Gradle provides methods for working with project properties. These methods can be used to check if a property exists and to get the value of a property.
+The project.hasProperty method is used to check if a property exists. It takes the name of the property as a parameter and returns a boolean value. If the property exists, it returns true; otherwise, it returns false.
+The project.property method is used to get the value of a property. It takes the name of the property as a parameter and returns the value of the property. If the property does not exist, it returns null.
+These methods are useful when you want to conditionally access a property's value in a build script. In the provided code, the 'nama' property is used to determine the name that will be printed in the greeting.
